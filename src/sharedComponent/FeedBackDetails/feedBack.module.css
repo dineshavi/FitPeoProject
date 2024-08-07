@@ -1,0 +1,12 @@
+.menuItemContainer{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.menuItemListContainer{
+    padding: 16px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: start;
+    gap: 8px;
+}

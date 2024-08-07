@@ -1,0 +1,16 @@
+
+
+
+  .sidebarMenuListIcon{
+  display: flex;
+justify-content: space-around;
+height: 10vh;
+    align-items: center;
+    background-color: #607d8b;
+  }
+  .selectedIconColor{
+    color: #cfd8dc;
+  }
+  .defaultIconColor{
+    color:#37474f 
+  }

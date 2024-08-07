@@ -1,0 +1,44 @@
+.cardContainer{
+display: flex;
+gap: 4px;
+flex-direction: row !important;
+padding-inline: 8px !important;
+}
+.cardContainerColumn{
+    display: flex;
+    gap: 4px;
+    flex-direction: column !important;
+}
+.ProfileCardContainer{
+    background-color: #78909c;
+    border-radius: 12px;
+    margin-block:8px !important
+}
+.ProfileCardContainerNonMobile{
+    background-color: #78909c;
+    border-radius: 12px;
+}
+.cardMainContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 4px;
+}
+.menuListContainer{
+    height: 280px;
+    background-color: #78909c;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column !important;
+}
+.feedBackListContainer{
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #78909c;
+    border-radius: 12px;
+}
+.headingContainer{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+}

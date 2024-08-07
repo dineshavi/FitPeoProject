@@ -1,0 +1,23 @@
+.cardContainer{
+
+}
+.cardpadding{
+    padding-block: 8px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-evenly;
+}
+.mainCardContainer{
+    display: flex;
+
+    gap:8px;
+    padding: 8px;
+    background-color: #78909c;
+    /* border: 1px solid #000; */
+    border-radius: 12px;
+}
+.increaseValueContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

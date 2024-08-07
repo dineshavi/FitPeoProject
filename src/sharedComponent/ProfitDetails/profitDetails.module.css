@@ -1,0 +1,6 @@
+.mainCardContainer {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+    padding-inline: 8px;
+}

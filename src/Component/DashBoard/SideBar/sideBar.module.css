@@ -1,0 +1,75 @@
+
+
+.slider {
+    background-color:#21130d;
+  width: 4%;
+  height: 100vh;
+  text-align: center;
+  padding-inline: 4px;
+  padding-block: 12px;
+  }
+  
+  /* .slider:hover {
+    color: #2e8b57;
+  }
+  
+  .slider .thumb {
+    border-radius: 1px;
+  } */
+.mediaContainer
+{
+  display: none;
+}
+  .wapperContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap; 
+    background-color:#fff;
+    overflow: hidden;
+    /* 21110d; */
+    
+  }
+  .sidebar {
+    width: 6%;
+    background-color:#fff;
+    /* 0d0f21 */
+  }
+  .navBarContainer {
+    width: 94%;
+    background-color:#fff;
+    /* 0d0f21 */
+    height: 6vh;
+ 
+  }
+  .iconMainContainer{
+   border-radius: 50%;
+color: #08679f;
+  }
+  .sideBarMainContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #607d8b;
+    /* height: 100vh; */
+    /* position: fixed; */
+  }
+  .sidebarMenuContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 12px;
+  
+  }
+  .sidebarMenuListIcon{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  }
+  .selectedIconColor{
+    color: #cfd8dc;
+  }
+  .defaultIconColor{
+    color:#37474f 
+  }
