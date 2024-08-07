@@ -109,7 +109,7 @@ const DashboardScreen = () => {
     const onlySmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
     return (
-        <div style={{ height:onlySmallScreen? '82vh':'94vh', overflowY: 'scroll',backgroundColor:'#eceff1' }}>
+        <div style={{ height:onlySmallScreen? '90vh':'94vh', overflowY: 'scroll',backgroundColor:'#eceff1' }}>
             <Grid container xs={12} p={1.5}>
                 <Grid item xs={12} p={1.5} >
                     <Typography variant="body1" style={{

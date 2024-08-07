@@ -18,12 +18,15 @@ const NavBarMobile = () => {
     const [hambugerOpen, setHamburgerOpen] = useState(false)
     const handleClickOpen = () => {
         setHamburgerOpen(true)
+      
     }
     const handleClickClose = () => {
         setHamburgerOpen(false)
+ 
     }
     useEffect(() => {
         setHamburgerOpen(false)
+        window.scrollTo(0,0)
     }, [])
     return (
         <div className={styles.mobileContainer}>

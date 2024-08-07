@@ -3,8 +3,12 @@
 
   .sidebarMenuListIcon{
   display: flex;
-justify-content: space-around;
-height: 10vh;
+justify-content: space-evenly;
+/* height: 10vh; */
+position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-block: 14px;
     align-items: center;
     background-color: #607d8b;
   }
